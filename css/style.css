@@ -1,0 +1,131 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box; 
+}
+ul{
+	list-style:none;
+	color:#d5d5d5;
+}
+a{
+	text-decoration:none;
+	color:#d5d5d5;
+}
+/*********************************************************/
+body{
+	background: black;
+}
+.header{
+	padding:20px 0;
+	background:linear-gradient(to right,#fff,gray,#fff);
+}
+.header h1{
+	text-align:center;
+	text-transform:capitalize;
+	text-shadow:3px 3px 5px black,-3px -3px 5px black;
+	font-family: 'Pacifico', cursive;
+	color:yellow;
+}
+.header h2{
+	text-align:center;
+	text-transform:capitalize;
+	text-shadow:3px 3px 5px black,-3px -3px 5px black;
+	/*font-family:Algerian;*/
+	color:yellow;
+	letter-spacing:2px;
+	font-weight:500;
+}
+.header h1 .fa{
+	color:#000;
+	text-shadow:4px 4px 7px yellow,-4px -4px 7px yellow;
+}
+/***********************************************************/
+.section-skills{
+	padding-top:30px;
+	min-height:400px;
+	padding-bottom:5%;
+}
+.section-skills h2{
+	text-transform:uppercase;
+	font-size:30px;
+	font-family:Algerian;
+	margin:0px 0px 50px 0px;
+	text-decoration:underline;
+	text-align:center;
+	color:#d5d5d5;
+}
+
+.progress{
+	height:30px;
+	margin:0px 0px 15px 0px;
+	font-size:15px;
+	text-transform:capitalize;
+}
+.color{
+	color:#000;
+	font-weight:bold;
+}
+.progress span{
+	font-weight:bold;
+	padding-right:15%;
+}
+/***************************************************************/
+.about{
+	text-align:center;
+	border-left: double 5px gray;
+}
+.about img{
+	margin-bottom:5%;
+}
+.about p{
+	text-transform:capitalize;
+	line-height:7px;
+	color:#d5d5d5;
+}
+.about p span{
+	text-transform:uppercase;
+	font-weight:bold;
+	margin-right:2%;
+	color:yellow;
+	letter-spacing:1px;
+}
+.about .contact a .fa{
+	font-size:30px;
+	margin-top:5%;
+	width:50px;
+}
+.about img{
+	transition:all 1s;
+	width:250px;
+	height:250px;
+	border:7px #d5d5d5 solid;
+}
+.about .contact a .fa{
+	transition:all 0.5s;
+}
+.fa-pinterest:hover{
+	color:#bd081c;
+	transform:scale(2,2);
+}
+.fa-google-plus:hover{
+	color:#ce4438;
+	transform:scale(2,2);
+}
+.fa-twitter:hover{
+	color:#1da1f2;
+	transform:scale(2,2);
+}
+.about img:hover{
+	border:7px yellow solid;
+	transform:rotate(360deg);
+	/*transform:scale(1.5,1.5);*/
+}
+/*****************************************************/
+.footer{
+	padding:20px 0;
+	background:linear-gradient(to right,#fff,gray,#fff);
+}
+.footer address{
+	text-align:center;
+	letter-spacing:2px;
+}
