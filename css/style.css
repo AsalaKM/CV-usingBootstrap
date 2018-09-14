@@ -15,33 +15,9 @@ a{
 body{
 	background: black;
 }
-.header{
-	padding:20px 0;
-	background:linear-gradient(to right,#fff,gray,#fff);
-}
-.header h1{
-	text-align:center;
-	text-transform:capitalize;
-	text-shadow:3px 3px 5px black,-3px -3px 5px black;
-	font-family: 'Pacifico', cursive;
-	color:yellow;
-}
-.header h2{
-	text-align:center;
-	text-transform:capitalize;
-	text-shadow:3px 3px 5px black,-3px -3px 5px black;
-	/*font-family:Algerian;*/
-	color:yellow;
-	letter-spacing:2px;
-	font-weight:500;
-}
-.header h1 .fa{
-	color:#000;
-	text-shadow:4px 4px 7px yellow,-4px -4px 7px yellow;
-}
-/***********************************************************/
+/******************/
 .section-skills{
-	padding-top:30px;
+	padding-top:20px;
 	min-height:400px;
 	padding-bottom:5%;
 }
@@ -49,14 +25,14 @@ body{
 	text-transform:uppercase;
 	font-size:30px;
 	font-family:Algerian;
-	margin:0px 0px 50px 0px;
+	margin:5px 0px 60px 0px;
 	text-decoration:underline;
 	text-align:center;
 	color:#d5d5d5;
 }
 
 .progress{
-	height:30px;
+	height:25px;
 	margin:0px 0px 15px 0px;
 	font-size:15px;
 	text-transform:capitalize;
@@ -103,16 +79,12 @@ body{
 .about .contact a .fa{
 	transition:all 0.5s;
 }
-.fa-pinterest:hover{
-	color:#bd081c;
-	transform:scale(2,2);
-}
-.fa-google-plus:hover{
-	color:#ce4438;
-	transform:scale(2,2);
-}
 .fa-twitter:hover{
 	color:#1da1f2;
+	transform:scale(2,2);
+}
+.fa-facebook:hover{
+	color:#40539b;
 	transform:scale(2,2);
 }
 .about img:hover{
@@ -123,9 +95,10 @@ body{
 /*****************************************************/
 .footer{
 	padding:20px 0;
-	background:linear-gradient(to right,#fff,gray,#fff);
+	background:#000;
 }
 .footer address{
 	text-align:center;
 	letter-spacing:2px;
+	color: aliceblue;
 }
