@@ -89,8 +89,6 @@ body{
 }
 .about img:hover{
 	border:7px yellow solid;
-	transform:rotate(360deg);
-	/*transform:scale(1.5,1.5);*/
 }
 /*****************************************************/
 .footer{
